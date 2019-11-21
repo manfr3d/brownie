@@ -54,6 +54,8 @@ The following settings are available:
             * ``accounts``: The number of funded accounts in ``web3.eth.accounts``.
             * ``evm_version``: The EVM version to compile for. If ``null`` the most recent one is used. Possible values are ``byzantium``, ``constantinople`` and ``petersburg``.
             * ``mnemonic``: Local accounts are derived from this mnemonic. If set to ``null``, you will have different local accounts each time Brownie is run.
+            * ``acctKeys``: Specific filename argument to dump the private keys of ganache-cli.
+
 
 .. _config-solc:
 
